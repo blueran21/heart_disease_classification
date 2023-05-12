@@ -1,5 +1,6 @@
 # Add customerized files
 *.xpt
+*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
