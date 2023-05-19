@@ -3,6 +3,7 @@
 ## Contents:
 - [Problem Statement](#Problem-Statement)
 - [Data Cleaning](#Data-Cleaning)
+- [Data Dictionary](#Data-Dicitonary)
 - [Data preprocessing](#Data-Preprocessing)
 - [Model Building](#Model-Building)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
@@ -16,6 +17,10 @@ The goal of this study is to develop classification models for heart disease pre
 First, we need to use domain knowledge to identify and remove any irrelevant or redundant columns from the dataset. Then, consult the Dataset Dictionary to properly handle missing values. If a missing value represents a specific category such as 'Not Sure' or 'Missing', rather than being truly missing, replace it accordingly.
 ...
 
+
+## Data Dictionary
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
 
 ## Data Preprocessing
 For the categorical columns, we applied one-hot encoding to transform them into a format for different classification models. Additionally, we utilized standard scaling to scale the data, ensuring that all features are on a similar scale. With these preprocessing steps, the dataset is now optimally prepared for building models.
