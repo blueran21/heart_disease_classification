@@ -3,7 +3,7 @@
 ## Contents:
 - [Problem Statement](#Problem-Statement)
 - [Data Cleaning](#Data-Cleaning)
-- [Data Dictionary](#Data-Dicitonary)
+- [Data Dictionary](#Data-Dictionary)
 - [Data preprocessing](#Data-Preprocessing)
 - [Model Building](#Model-Building)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
