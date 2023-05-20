@@ -71,7 +71,17 @@ For the categorical columns, we applied one-hot encoding to transform them into 
 
 
 ## Model Building
-...
+#### Logistic Regression
+Logistic regression is a fundamental classification technique, and we've used it as a starting point. To manage the data imbalance, we implemented different resampling strategies such as Random Over-Sampling, Synthetic Minority Over-sampling Technique (SMOTE), Adaptive Synthetic Sampling (ADASYN) and Over-Weight Minority Sampling. These techniques help balance the dataset by increasing the instances of the minority class. Furthermore, we introduced class weighting to the logistic model to give higher preference to the minority class.
+
+#### Naive Bayes
+Naive Bayes is another classification method that we employed in this project. It's a probabilistic machine learning model that’s used for classification tasks. Similar to Logistic Regression, we used Random Over-Sampling, SMOTE, and ADASYN techniques to handle the imbalanced dataset.
+
+#### Random Forest
+Random Forest is a powerful ensemble learning method which aggregates the predictions from multiple decision trees to decide the final output. It's highly flexible and possess the capacity to handle imbalanced datasets effectively. For this model, we also explored Random Over-Sampling, SMOTE, and ADASYN techniques to counteract the effect of data imbalance.
+
+#### XGBoost
+XGBoost is another advanced ensemble learning method. Known for its performance and speed, we considered this model to check if it could offer improvements over the others. It inherently handles imbalance in the data by adjusting the 'scale_pos_weight' parameter.
 
 
 ## Conclusions and Recommendations
