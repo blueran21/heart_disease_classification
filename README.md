@@ -117,4 +117,6 @@ XGBoost is another advanced ensemble learning method. Known for its performance 
 
 
 ## Conclusions and Recommendations
-...
+Our developed Random Forest Model serves as a useful tool for healthcare practitioners to identify individuals who may be at risk for heart disease. This model exhibited the best recall score, with balanced accuracy that was marginally lower compared to other explored models. We endorse using this model as a preliminary step in detecting potential heart disease in patients.
+
+As of now, the model determines the likelihood of heart disease if the 'probability' exceeds 50%. However, there's room for enhancement where the model could offer the probability of an individual being afflicted with heart disease. Such a feature could prove valuable to medical professionals in their work.
