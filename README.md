@@ -9,7 +9,7 @@
 - [Data preprocessing](#Data-Preprocessing)
 - [Model Building](#Model-Building)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
-- [notebook Description](#Notebook-Description)
+- [Notebook Descriptions](#Notebook-Descriptions)
 - [Software Requirements](#Software-Requirements)
 
 
@@ -18,7 +18,7 @@ The goal of this study is to develop machine learning classification models for 
 
 
 ## Data Source
-Our data is derived from the Behavioral Risk Factor Surveillance System, or BRFSS, for the year 2021. This system is a product of the Centers for Disease Control and Prevention, or the CDC, which conducts health-related telephone surveys annually to collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and the use of preventive services.
+Our data is derived from the [Behavioral Risk Factor Surveillance System, or BRFSS, for the year 2021](https://www.cdc.gov/brfss/annual_data/annual_2021.html). This system is a product of the Centers for Disease Control and Prevention, or the CDC, which conducts health-related telephone surveys annually to collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and the use of preventive services. There’s over four hundred thousand individuals and three hundred potential features in the [original dataset](https://www.cdc.gov/brfss/annual_data/2021/files/LLCP2021XPT.zip). These variables capture a broad range of data from demographic details such as age, sex and race, to behavioral factors like smoking, alcohol consumption, and physical activity levels. We also have information on chronic health conditions, preventative health measures, and access to healthcare services.
 
 
 ## Data Cleaning
@@ -140,7 +140,7 @@ As of now, the model determines the likelihood of heart disease if the 'probabil
 - plotly
 - kaleido
 
-## Notebook Description
+## Notebook Descriptions
 |File Name|Description|
 |---|---|
 |**1_Convert_SAS_to_CSV.ipynb**|Transforming the original .sas file into a .csv file|
