@@ -143,11 +143,11 @@ As of now, the model determines the likelihood of heart disease if the 'probabil
 ## Notebook Descriptions
 |File Name|Description|
 |---|---|
-|**1_Convert_SAS_to_CSV.ipynb**|Transforming the original .sas file into a .csv file|
-|**2_Data_Cleaning.ipynb**|Data Cleaning|
-|**3_EDA.ipynb**|Exploratory Data Analysis|
-|**4_Lucas_Naive_Bayes_Model.ipynb**|Applying variations of a Naive Bayes model and evaluating model performance|
-|**4_Mark_Random_Forest_Model.ipynb**|Applying variations of a Random Forest model and evaluating model performance|
-|**4_Ran_Logistic_Regression.ipynb**|Applying variations of a Logistic Regression model and evaluating model performance|
-|**4_Ran_XGBoost.ipynb**|Applying variations of a XGBoost model and evaluating model performance|
-|**5_Conclusion.ipynb**|Evaluating All Models and Drawing Conclusions|
+|**[1_Convert_SAS_to_CSV.ipynb](https://github.com/blueran21/heart_disease_classification/blob/main/code/1_Convert_SAS_to_CSV.ipynb)**|Transforming the original .sas file into a .csv file|
+|**[2_Data_Cleaning.ipynb](https://github.com/blueran21/heart_disease_classification/blob/main/code/2_Data_Cleaning.ipynb)**|Data Cleaning|
+|**[3_EDA.ipynb](https://github.com/blueran21/heart_disease_classification/blob/main/code/3_EDA.ipynb)**|Exploratory Data Analysis|
+|**[4_Lucas_Naive_Bayes_Model.ipynb](https://github.com/blueran21/heart_disease_classification/blob/main/code/4_Lucas_Naive_Bayes_Model.ipynb)**|Applying variations of a Naive Bayes model and evaluating model performance|
+|**[4_Mark_Random_Forest_Model.ipynb](https://github.com/blueran21/heart_disease_classification/blob/main/code/4_Mark_Random_Forest_Model.ipynb)**|Applying variations of a Random Forest model and evaluating model performance|
+|**[4_Ran_Logistic_Regression.ipynb](https://github.com/blueran21/heart_disease_classification/blob/main/code/4_Ran_Logistic_Regression.ipynb)**|Applying variations of a Logistic Regression model and evaluating model performance|
+|**[4_Ran_XGBoost.ipynb](https://github.com/blueran21/heart_disease_classification/blob/main/code/4_Ran_XGBoost.ipynb)**|Applying variations of a XGBoost model and evaluating model performance|
+|**[5_Conclusion.ipynb](https://github.com/blueran21/heart_disease_classification/blob/main/code/5_Conclusion.ipynb)**|Evaluating All Models and Drawing Conclusions|
