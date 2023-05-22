@@ -4,6 +4,7 @@
 - [Problem Statement](#Problem-Statement)
 - [Data Cleaning](#Data-Cleaning)
 - [Data Dictionary](#Data-Dictionary)
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Data preprocessing](#Data-Preprocessing)
 - [Model Building](#Model-Building)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
@@ -65,6 +66,37 @@ First, we need to use domain knowledge to identify and remove any irrelevant or 
 |**potada1_**|float64|cleaning_data_phase2.csv|Computed Potato Servings per day|
 |**vegeda2_**|float64|cleaning_data_phase2.csv|Computed Other Vegetable intake in times per day|
 
+## Exploratory Data Analysis
+Before modeling, we investigated our dataset to see how dfferent features related with heart disease. Below are the most interesting graphs from that process.
+
+
+<img src = "graph/Imbalanced.png">
+
+Our target variable, the prevalence of heart disease, is very imbalanced. This will make it more difficult for our models to predict someone having heart disease. Oversampling techniques may be able to help the models performance. 
+
+<img src = "graph/Sex.png">
+
+ Men are more likely to be diagnosed with heart disease.
+ 
+<img src = "graph/states.png">
+
+Southern states have higher prevalence of heart disease on average. The west coast seems to have healthier hearts.
+
+<img src = "graph/Age.png">
+
+As we get older, we are much more likely to be diagnosed with heart disease.
+
+<img src = "graph/Age_Imcome.png">
+
+Those with high income are less likely to have heart disease.
+
+<img src = "graph/Age_Smoker.png">
+
+Smoking raises the odds of developing heart disease.
+
+<img src = "graph/Disease.png">
+
+People who have Diabetes and Kidney Disease are very likely to also have heart disease. 
 
 ## Data Preprocessing
 For the categorical columns, we applied one-hot encoding to transform them into a format for different classification models. Additionally, we utilized standard scaling to scale the whole data, ensuring that all features are on a similar scale. With these preprocessing steps, the dataset is now optimally prepared for building models.
