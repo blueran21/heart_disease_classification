@@ -2,16 +2,23 @@
 
 ## Contents:
 - [Problem Statement](#Problem-Statement)
+- [Data Source](#Data-Source)
 - [Data Cleaning](#Data-Cleaning)
 - [Data Dictionary](#Data-Dictionary)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Data preprocessing](#Data-Preprocessing)
 - [Model Building](#Model-Building)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
+- [notebook Description](#Notebook-Description)
+- [Software Requirements](#Software-Requirements)
 
 
 ## Problem Statement
 The goal of this study is to develop machine learning classification models for heart disease prediction and inference that accurately identifies individuals at risk of developing the condition. We will utilize the CDC's BRFSS 2021 dataset to do our research. We plan to optimize for balanced accuracy and choose the model with high recall so that means those who are sick are identified as often as possible. Leveraging relevant health and demographic data, the model will assist healthcare professionals in targeting preventive measures, enhancing patient outcomes, and reducing the overall burden of heart disease on the healthcare system.
+
+
+## Data Source
+Our data is derived from the Behavioral Risk Factor Surveillance System, or BRFSS, for the year 2021. This system is a product of the Centers for Disease Control and Prevention, or the CDC, which conducts health-related telephone surveys annually to collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and the use of preventive services.
 
 
 ## Data Cleaning
@@ -120,3 +127,27 @@ XGBoost is another advanced ensemble learning method. Known for its performance 
 Our developed Random Forest Model serves as a useful tool for healthcare practitioners to identify individuals who may be at risk for heart disease. This model exhibited the best recall score, with balanced accuracy that was marginally lower compared to other explored models. We endorse using this model as a preliminary step in detecting potential heart disease in patients.
 
 As of now, the model determines the likelihood of heart disease if the 'probability' exceeds 50%. However, there's room for enhancement where the model could offer the probability of an individual being afflicted with heart disease. Such a feature could prove valuable to medical professionals in their work.
+
+
+## Software Requirements
+- Pandas
+- Scikit-learn
+- imblearn
+- numpy
+- matplotlib.pyplot
+- seaborn
+- - xgboost
+- plotly
+- kaleido
+
+## Notebook Description
+|File Name|Description|
+|---|---|
+|**1_Convert_SAS_to_CSV.ipynb**|Transforming the original .sas file into a .csv file|
+|**2_Data_Cleaning.ipynb**|Data Cleaning|
+|**3_EDA.ipynb**|Exploratory Data Analysis|
+|**4_Lucas_Naive_Bayes_Model.ipynb**|Applying variations of a Naive Bayes model and evaluating model performance|
+|**4_Mark_Random_Forest_Model.ipynb**|Applying variations of a Random Forest model and evaluating model performance|
+|**4_Ran_Logistic_Regression.ipynb**|Applying variations of a Logistic Regression model and evaluating model performance|
+|**4_Ran_XGBoost.ipynb**|Applying variations of a XGBoost model and evaluating model performance|
+|**5_Conclusion.ipynb**|Evaluating All Models and Drawing Conclusions|
