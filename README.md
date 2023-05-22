@@ -136,7 +136,7 @@ As of now, the model determines the likelihood of heart disease if the 'probabil
 - numpy
 - matplotlib.pyplot
 - seaborn
-- - xgboost
+- xgboost
 - plotly
 - kaleido
 
